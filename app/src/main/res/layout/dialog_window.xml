@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="24dp"
+        android:hint="Title Of The Song"
+        tools:ignore="DuplicateIds,NotSibling" />
+
+    <EditText
+        android:id="@+id/artist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/title"
+        android:hint="Artist"
+        tools:ignore="DuplicateIds,NotSibling" />
+
+    <EditText
+        android:id="@+id/songwikiurl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/artist"
+        android:hint="Song Wiki URL"
+        tools:ignore="DuplicateIds,NotSibling" />
+
+    <EditText
+        android:id="@+id/songvideourl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/songwikiurl"
+        android:hint="Song Video URL"
+        tools:ignore="DuplicateIds,NotSibling"/>
+
+
+    <EditText
+        android:id="@+id/artisturl_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/songvideourl"
+        android:hint="Artist Wiki URL"
+        tools:ignore="DuplicateIds,NotSibling" />
+
+
+
+</RelativeLayout>
